@@ -3,7 +3,7 @@
 # AESD-ASSIGNMENTS
 #
 ##############################################################
-AESD_ASSIGNMENTS_VERSION = ad7fe99dfc2ffb2678b5858c3844ff077529112e
+AESD_ASSIGNMENTS_VERSION = afada3953e55416d2727f5b1d76861a601c49301
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-SshgurkiratSingh.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
