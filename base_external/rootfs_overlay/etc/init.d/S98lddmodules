@@ -1,21 +1,21 @@
 #!/bin/sh
 
 case "$1" in
-    start)
-        echo "Starting lddmodules"
-        modprobe hello
-        /usr/bin/scull_load
-        /usr/bin/module_load faulty
-        ;;
-    stop)
-        echo "Stopping lddmodules"
-        rmmod hello
-        /usr/bin/scull_unload
-        /usr/bin/module_unload faulty
-        ;;
-    *)
-        echo "Usage: $0 start/stop"
-        exit 1
-        ;;
+start)
+    echo "Starting lddmodules"
+    modprobe hello
+    modprobe faulty
+    modprobe scull
+    ;;
+stop)
+    echo "Stopping lddmodules"
+    rmmod hello
+    rmmod faulty
+    rmmod scull
+    ;;
+*)
+    echo "Usage: $0 start/stop"
+    exit 1
+    ;;
 esac
 exit 0
