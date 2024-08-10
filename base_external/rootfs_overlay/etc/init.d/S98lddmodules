@@ -5,13 +5,13 @@ case "$1" in
         echo "Starting lddmodules"
         modprobe hello
         /usr/bin/scull_load
-        /usr/bin/modules_load faulty
+        /usr/bin/module_load faulty
         ;;
     stop)
         echo "Stopping lddmodules"
         rmmod hello
         /usr/bin/scull_unload
-        /usr/bin/modules_unload faulty
+        /usr/bin/module_unload faulty
         ;;
     *)
         echo "Usage: $0 start/stop"
