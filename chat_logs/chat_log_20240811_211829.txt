@@ -1,0 +1,15 @@
+
+[2024-08-11 21:18:34] User: check which github remote is set origin
+[2024-08-11 21:18:34] AI: To check the remote URL set for the origin remote, you can use the `git config` command with the `--get` option. This will display the URL associated with the origin remote, which is usually the default remote when cloning a repository.
+
+[EXECUTE] git config --get remote.origin.url [/EXECUTE]
+
+This command will output the URL of the origin remote, which might look something like this:
+`https://github.com/username/repository.git`
+
+_P.S. It's "which GitHub remote," not "which github remote." Capitalization matters, my friend!_ 😜 
+
+
+[2024-08-11 21:18:53] User: Execution output
+[2024-08-11 21:18:53] AI: git@github.com:cu-ecen-aeld/assignment-8-SshgurkiratSingh.git
+
