@@ -6,12 +6,14 @@ start)
     modprobe hello
     modprobe faulty
     modprobe scull
+    /bin/module_load aesdchar
     ;;
 stop)
     echo "Stopping lddmodules"
     rmmod hello
     rmmod faulty
     rmmod scull
+    /bin/module_unload aesdchar
     ;;
 *)
     echo "Usage: $0 start/stop"
