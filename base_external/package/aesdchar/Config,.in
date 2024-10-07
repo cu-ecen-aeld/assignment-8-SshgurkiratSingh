@@ -1,5 +1,5 @@
 
-config BR2_PACKAGE_LDD
+config BR2_PACKAGE_AESDCHAR
 	bool "aesdchar"
 	help
 	  Includes aesdchar driver
